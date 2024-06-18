@@ -1,4 +1,4 @@
-# google-cyber-security-certification
+# Cybersecurity professional statement
 
 As a cybersecurity professional, I possess a robust set of strengths that equip me to excel in safeguarding digital environments. I am proficient in network security protocols and systems administration, ensuring robust defenses against cyber threats. My analytical thinking allows me to identify vulnerabilities and implement effective solutions, contributing to the resilience of organizational security measures. Additionally, my commitment to continuous learning ensures I stay updated with the latest cybersecurity trends and technologies.
 
