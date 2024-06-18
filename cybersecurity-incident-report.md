@@ -9,30 +9,31 @@
 <hr />
 <div style="margin-top: 20px;">
   <div>
-    One potential explanation for the website's connection timeout error message is:
+    One potential explanation for the website's connection timeout error message is DoS attack specifically SYN flooding.
   </div>
   <div>
-    The logs show that:
+    The logs show that there are abnormal number of SYN requests coming in at a rapid pace.
   </div>
   <div>
-    This event could be:
+    This event could be SYN flooding - one of DoS attack kind.
   </div>
 </div>
 
-<div>
+<div style="margin-top: 20px;">
   <div>
     When website visitors try to establish a connection with the web server, a three-way
-handshake occurs using the TCP protocol. Explain the three steps of the handshake:
+handshake occurs using the TCP protocol. 
     <ol>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>A SYN packet is sent from the source to the destination, requesting to connect.</li>
+      <li>The destination replies to the source with a SYN-ACK packet to accept the connection request. The destination will reserve resources for the source to connect.</li>
+      <li>A final ACK packet is sent from the source to the destination acknowledging the permission to connect.</li>
     </ol>
   </div>
   <div>
-    Explain what happens when a malicious actor sends a large number of SYN packets all at once:    
+    the flooding of SYN packet from attacker making visitors cannot establish or maintain a connection to the web server, the web server then stops responding.      
   </div>  
   <div>
     Explain what the logs indicate and how that affects the server:    
+    the attacker begin to send more and more SYN request to server. There are 20 suspicious rows of log begins to reflect the struggle the web server is having to keep up with the abnormal number of SYN requests coming in at a rapid pace.
   </div>
 </div>
